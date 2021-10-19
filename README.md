@@ -3,6 +3,7 @@
 `Real-time Chat` service is a RESTful web service that uses Celery as its scheduler for realtime conversation.
 
 ## FEATURES
+* Uses Celery for real-time chat
 * No more than 90 messages are sent in an hour
 * Prevents messages from being sent from 20:00 -09:00 taking into account different timezones
 * Ordering and Pagination
