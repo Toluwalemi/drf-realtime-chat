@@ -1,4 +1,4 @@
-# `Robots Competition` service
+# `Real-time Chat` service
 
 `Real-time Chat` service is a RESTful web service that uses Celery as its scheduler for realtime conversation.
 
