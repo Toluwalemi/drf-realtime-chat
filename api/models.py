@@ -50,7 +50,7 @@ class Discount(Timestamp):
     discount_code = models.CharField(max_length=200)
 
     class Meta:
-        verbose_name_plural = "Stores"
+        verbose_name_plural = "Discounts"
 
     def __str__(self):
         return self.discount_code
@@ -67,7 +67,7 @@ class Operator(Timestamp):
         ordering = ('operator_group',)
 
     def __str__(self):
-        return self.operator_group
+        return self.operator_user.get_full_name()
 
 
 class Client(Timestamp):
@@ -78,8 +78,11 @@ class Client(Timestamp):
     phone_number = models.CharField(max_length=15)
 
     class Meta:
-        verbose_name_plural = "Operators"
+        verbose_name_plural = "Clients"
         ordering = ('timezone',)
+
+    def __str__(self):
+        return self.client_user.get_full_name()
 
 
 class Conversation(Timestamp):
@@ -90,7 +93,7 @@ class Conversation(Timestamp):
     status = models.CharField(max_length=50)
 
     class Meta:
-        verbose_name_plural = "Operators"
+        verbose_name_plural = "Conversations"
 
 
 class Chat(Timestamp):
@@ -114,4 +117,4 @@ class Schedule(Timestamp):
     chat = models.ForeignKey(Chat, related_name='schedules', on_delete=models.CASCADE)
 
     class Meta:
-        verbose_name_plural = "Chats"
+        verbose_name_plural = "Schedules"
