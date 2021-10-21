@@ -79,7 +79,7 @@ class Client(Timestamp):
         ordering = ('timezone',)
 
     def __str__(self):
-        return self.client_user.get_full_name()
+        return self.client_user.username
 
 
 class Conversation(Timestamp):
