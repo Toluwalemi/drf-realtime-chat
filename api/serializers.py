@@ -57,8 +57,8 @@ class ChatSerializer(serializers.HyperlinkedModelSerializer):
 class ConversationSerializer(serializers.HyperlinkedModelSerializer):
     chats = ChatSerializer(many=True, read_only=True)
     store_id = serializers.SlugRelatedField(queryset=Store.objects.all(), slug_field='pk', source='store')
-    client_id = serializers.SlugRelatedField(queryset=Store.objects.all(), slug_field='pk', source='client')
-    operator_id = serializers.SlugRelatedField(queryset=Client.objects.all(), slug_field='pk', source='operator')
+    client_id = serializers.SlugRelatedField(queryset=Client.objects.all(), slug_field='pk', source='client')
+    operator_id = serializers.SlugRelatedField(queryset=Operator.objects.all(), slug_field='pk', source='operator')
 
     class Meta:
         model = Conversation
@@ -68,10 +68,14 @@ class ConversationSerializer(serializers.HyperlinkedModelSerializer):
 class ChatConversationSerializer(serializers.ModelSerializer):
     conversation_id = serializers.SlugRelatedField(queryset=Conversation.objects.all(), slug_field='pk',
                                                    source='conversation')
-    user_id = serializers.CharField(source='chat_user.pk')
 
-    # discount = serializers.SlugRelatedField(queryset=Discount.objects.all(), slug_field='discount_code')
+    # user_id = serializers.(source='chat_user.pk')
+    # user_id = serializers.SlugRelatedField(queryset=Discount.objects.all(), slug_field='discount_code',
+    #                                        write_only=True)
+
+    discount_id = serializers.SlugRelatedField(queryset=Discount.objects.all(), slug_field='discount_code',
+                                               write_only=True, source='discount')
 
     class Meta:
         model = Chat
-        fields = ('url', 'payload', 'user_id', 'conversation_id', 'created', 'status',)
+        fields = ('url', 'payload', 'chat_user', 'discount_id', 'conversation_id', 'created', 'status',)
