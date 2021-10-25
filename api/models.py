@@ -56,7 +56,7 @@ class Operator(Timestamp):
         ordering = ('operator_group',)
 
     def __str__(self):
-        return self.operator_user.get_full_name()
+        return self.operator_user.username + " " + self.operator_group
 
 
 class Client(Timestamp):
