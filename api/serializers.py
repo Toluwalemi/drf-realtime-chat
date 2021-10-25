@@ -51,7 +51,8 @@ class ChatSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Chat
-        fields = ('url', 'payload', 'user_id', 'status', 'created', 'discount')
+        fields = ('url', 'payload', 'user_id', 'created', 'discount', 'status',)
+        read_only_fields = ('status',)
 
 
 class ConversationSerializer(serializers.HyperlinkedModelSerializer):
@@ -79,3 +80,4 @@ class ChatConversationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Chat
         fields = ('url', 'payload', 'chat_user', 'discount_id', 'conversation_id', 'created', 'status',)
+        read_only_fields = ('status',)

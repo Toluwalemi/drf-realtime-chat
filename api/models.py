@@ -99,7 +99,7 @@ class Chat(Timestamp):
     payload = models.CharField(max_length=300, validators=[validate_payload])
     discount = models.ForeignKey(Discount, related_name='chats', on_delete=models.CASCADE)
     chat_user = models.ForeignKey('auth.User', related_name='chats', on_delete=models.CASCADE)
-    status = models.CharField(max_length=10)
+    status = models.CharField(max_length=10, default='NEW')
 
     class Meta:
         verbose_name_plural = "Chats"
