@@ -1,20 +1,8 @@
-import re
-
 import pytz
 from django.db import models
 
-
 # Create your models here.
-
-def validate_payload(payload: str) -> str:
-    """
-    Function to valid Chat model payload to contain chars from ->
-    *aA-zZ1234567890{}$%_-\\/~@#$%^&*()!?
-    """
-    if re.match('^[\w\s\D]+$', payload):
-        return payload
-    else:
-        return "Text not valid"
+from api.helpers import validate_payload
 
 
 class Timestamp(models.Model):

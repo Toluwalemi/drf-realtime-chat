@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: web
+    build: .
+    image: web
+    volumes:
+      - .:/code:rw
+    #    environment:
+    #      DATABASE_URL: postgres://postgres:postgres@localhost:5432/web
+    #      RABBITMQ_URL: amqp://user:password@localhost:56372
+    #      DJANGO_SETTINGS_MODULE: config.settings
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    ports:
+      - "8009:8000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - redis
+    networks:
+      - backend
+
+  db:
+    container_name: db
+    image: postgres:13-alpine
+    ports:
+      - 5423
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=chat
+    networks:
+      - backend
+
+  redis:
+    container_name: redis
+    image: redis:alpine
+    networks:
+      - backend
+
+  #  rabbitmq:
+  #    image: "rabbitmq:3-management"
+  #    container_name: rabbitmq
+  #    volumes:
+  #      - rabbitmq-data:/var/lib/rabbitmq
+  #    networks:
+  #      - backend
+  #    ports:
+  #      - "56372:56372"
+
+  celery:
+    build: .
+    container_name: celery
+    command: celery -A config worker -l info
+    volumes:
+      - .:/code
+    env_file:
+      - .env
+    depends_on:
+      - redis
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+  rabbitmq-data:
+
+networks:
+  backend:
