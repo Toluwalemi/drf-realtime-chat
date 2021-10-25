@@ -7,7 +7,10 @@ from django.db import models
 # Create your models here.
 
 def validate_payload(payload: str) -> str:
-    """Function to valid Chat model payload"""
+    """
+    Function to valid Chat model payload to contain chars from ->
+    *aA-zZ1234567890{}$%_-\\/~@#$%^&*()!?
+    """
     if re.match('^[\w\s\D]+$', payload):
         return payload
     else:
@@ -28,6 +31,7 @@ class Timestamp(models.Model):
 
 class Store(Timestamp):
     """Model for details of Store"""
+    # get a tuple of all existing timezones to be used as a dropdown option
     TIMEZONES = tuple(zip(pytz.all_timezones, pytz.all_timezones))
     name = models.CharField(max_length=250, unique=True)
     timezone = models.CharField(max_length=32, choices=TIMEZONES, default='UTC', )
