@@ -88,9 +88,9 @@ class Client(Timestamp):
 
 class Conversation(Timestamp):
     """Model to store details for a Conversation"""
-    store = models.ForeignKey(Store, related_name='conversations', on_delete=models.CASCADE)
-    client = models.ForeignKey(Client, related_name='conversations', on_delete=models.CASCADE)
-    operator = models.ForeignKey(Operator, related_name='conversations', on_delete=models.CASCADE)
+    store = models.ForeignKey(Store, related_name='store_conversations', on_delete=models.CASCADE)
+    client = models.ForeignKey(Client, related_name='client_conversations', on_delete=models.CASCADE)
+    operator = models.ForeignKey(Operator, related_name='operator_conversations', on_delete=models.CASCADE)
     status = models.CharField(max_length=50)
 
     class Meta:
@@ -99,10 +99,10 @@ class Conversation(Timestamp):
 
 class Chat(Timestamp):
     """Models to store details for  Chat"""
-    conversation = models.ForeignKey(Conversation, related_name='chats', on_delete=models.CASCADE)
+    conversation = models.ForeignKey(Conversation, related_name='conversation_chats', on_delete=models.CASCADE)
     payload = models.CharField(max_length=300, validators=[validate_payload])
-    discount = models.ForeignKey(Discount, related_name='chats', on_delete=models.CASCADE)
-    chat_user = models.ForeignKey('auth.User', related_name='chats', on_delete=models.CASCADE)
+    discount = models.ForeignKey(Discount, related_name='discount_chats', on_delete=models.CASCADE)
+    chat_user = models.ForeignKey('auth.User', related_name='user_chats', on_delete=models.CASCADE)
     status = models.CharField(max_length=10, default='NEW')
 
     class Meta:
