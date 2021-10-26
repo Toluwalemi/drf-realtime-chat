@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'drf_yasg',
     'api',
 ]
 
@@ -145,5 +146,10 @@ CELERY_BEAT_SCHEDULE = {
 REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'chats': '90/hour',
-    }
+    },
+    "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema"
+}
+
+SWAGGER_SETTINGS = {
+    "USE_SESSION_AUTH": False
 }
