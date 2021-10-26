@@ -9,7 +9,8 @@
 * Tests
 
 ## DOCUMENTATION
-
+* http://localhost:8009/swagger-docs/
+* http://localhost:8009/docs/
 
 ## RESTFUL ROUTES
 
@@ -45,7 +46,7 @@ created **.env** file
  docker-compose exec web python manage.py makemigrations api
  docker-compose exec web python manage.py migrate
 ```
-* App will be available at: http://0.0.0.0:8000
+* App will be available at: http://0.0.0.0:8009
 * Run the tests with this command:
 ```bash
  docker-compose exec web pytest
@@ -58,4 +59,4 @@ created **.env** file
 ```bash
   docker-compose exec web python manage.py loaddata fixture.json
 ```
-* Go to http://0.0.0.0:8000/api to access the endpoints
+* Go to http://0.0.0.0:8009/api to access the endpoints
