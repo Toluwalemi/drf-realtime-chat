@@ -58,4 +58,4 @@ created **.env** file
 ```bash
   docker-compose exec web python manage.py loaddata fixture.json
 ```
-* Go to http://0.0.0.0:8000 to access the endpoints
+* Go to http://0.0.0.0:8000/api to access the endpoints
