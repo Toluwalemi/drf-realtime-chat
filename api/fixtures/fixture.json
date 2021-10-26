@@ -1,0 +1,1564 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-25T19:23:14.902Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "First Store",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-25T19:23:32.379Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Second Store",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-25T19:23:52.483Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Third Store",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-10-25T19:24:13.021Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "ADEBABACAC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-10-25T19:24:25.505Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "ADEGBABS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-10-25T19:24:36.134Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "adfad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-10-25T19:26:46.643Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "testuser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-10-25T19:27:12.043Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-10-25T19:27:31.740Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-10-25T19:29:23.349Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "testuser Avatars",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-10-25T19:29:57.311Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "testclient",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-10-25T19:30:17.141Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "testclient",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-10-25T19:30:29.885Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-10-25T19:30:44.338Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "testclient",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-10-25T19:31:16.057Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Conversation object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-10-25T19:31:29.267Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Conversation object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-10-25T19:31:44.225Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Conversation object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-10-25T19:32:23.779Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "I want to send you a message now.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-10-25T19:32:54.033Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "This is the second message.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-10-25T19:33:07.900Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "This is the third message",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-10-25T21:14:30.934Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "testclient",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Timezone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-10-25T21:15:02.579Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "testclient",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Timezone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-10-25T21:21:47.685Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "testclient",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Timezone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-10-25T21:22:03.782Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "testclient",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Timezone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-10-25T21:22:15.064Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Timezone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-10-26T11:33:32.110Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Schedule object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-10-26T11:33:32.160Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Schedule object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-10-26T11:33:42.258Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "I want to send you a message now.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-10-26T11:33:51.167Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "This is the third message",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-10-26T11:49:56.939Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Schedule object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-10-26T11:49:56.967Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Schedule object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-10-26T11:49:56.978Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Schedule object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-10-26T11:49:56.990Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Schedule object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-10-26T11:57:56.460Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "This is the third message",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-10-26T12:03:35.697Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Schedule object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-10-26T12:03:45.918Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "This is the third message",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add chat",
+        "content_type": 7,
+        "codename": "add_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change chat",
+        "content_type": 7,
+        "codename": "change_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete chat",
+        "content_type": 7,
+        "codename": "delete_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view chat",
+        "content_type": 7,
+        "codename": "view_chat"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add client",
+        "content_type": 8,
+        "codename": "add_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change client",
+        "content_type": 8,
+        "codename": "change_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete client",
+        "content_type": 8,
+        "codename": "delete_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view client",
+        "content_type": 8,
+        "codename": "view_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add store",
+        "content_type": 9,
+        "codename": "add_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change store",
+        "content_type": 9,
+        "codename": "change_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete store",
+        "content_type": 9,
+        "codename": "delete_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view store",
+        "content_type": 9,
+        "codename": "view_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add schedule",
+        "content_type": 10,
+        "codename": "add_schedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change schedule",
+        "content_type": 10,
+        "codename": "change_schedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete schedule",
+        "content_type": 10,
+        "codename": "delete_schedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view schedule",
+        "content_type": 10,
+        "codename": "view_schedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add operator",
+        "content_type": 11,
+        "codename": "add_operator"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change operator",
+        "content_type": 11,
+        "codename": "change_operator"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete operator",
+        "content_type": 11,
+        "codename": "delete_operator"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view operator",
+        "content_type": 11,
+        "codename": "view_operator"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add discount",
+        "content_type": 12,
+        "codename": "add_discount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change discount",
+        "content_type": 12,
+        "codename": "change_discount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete discount",
+        "content_type": 12,
+        "codename": "delete_discount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view discount",
+        "content_type": 12,
+        "codename": "view_discount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add conversation",
+        "content_type": 13,
+        "codename": "add_conversation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change conversation",
+        "content_type": 13,
+        "codename": "change_conversation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete conversation",
+        "content_type": 13,
+        "codename": "delete_conversation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view conversation",
+        "content_type": 13,
+        "codename": "view_conversation"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0vz7sR8o4ueuI43qbhUYZj$4lYDkcvIre6GbBfkx8T1Axzl4SOHE1jLvA7MRnVDeac=",
+        "last_login": "2021-10-25T19:17:24.849Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-25T19:16:50.981Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$1izdLh0HCZLUo0suCELqe7$5xmImZTHWfqmheW1Tl+PqD7pDgKkJxlTRgfyyub42Qk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testuser",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-25T19:26:46.459Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$HxoJ9FoVbd8nbVXkmAh4PY$bsMzgp31PhOwhbvEOgKA3AR8jRCwTUu1t5+28Gfllno=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testclient",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-25T19:29:57.123Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "api",
+        "model": "chat"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "api",
+        "model": "client"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "api",
+        "model": "store"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "api",
+        "model": "schedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "api",
+        "model": "operator"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "api",
+        "model": "discount"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "api",
+        "model": "conversation"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ptasa27050g0cwwb9dvu5m3nhap2baij",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFMeVRcuu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXAeL0u0WkB9cdpDvWW5PU6rrMUe6KPGiXU0v8vB7u30HBXr61AXLAzJGS0nbQMMbocEANHjyzJxp1ZuXJKkXOZLAxmaz9mbxSSaN4fwDvxjge:1mf5TI:X-1FsXTW9URl4GMZxK4PmjvpYCfZMOUpcUuwE9VWaPI",
+        "expire_date": "2021-11-08T19:17:24.862Z"
+    }
+},
+{
+    "model": "api.store",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:23:14.900Z",
+        "updated": "2021-10-25T19:23:14.900Z",
+        "name": "First Store",
+        "timezone": "UTC",
+        "phone_number": "08012345234"
+    }
+},
+{
+    "model": "api.store",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:23:32.377Z",
+        "updated": "2021-10-25T19:23:32.377Z",
+        "name": "Second Store",
+        "timezone": "US/Hawaii",
+        "phone_number": "08056711332"
+    }
+},
+{
+    "model": "api.store",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:23:52.481Z",
+        "updated": "2021-10-25T19:23:52.481Z",
+        "name": "Third Store",
+        "timezone": "Africa/Niamey",
+        "phone_number": "812467114734"
+    }
+},
+{
+    "model": "api.discount",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:24:13.019Z",
+        "updated": "2021-10-25T19:24:13.019Z",
+        "store": 1,
+        "discount_code": "ADEBABACAC"
+    }
+},
+{
+    "model": "api.discount",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:24:25.503Z",
+        "updated": "2021-10-25T19:24:25.503Z",
+        "store": 2,
+        "discount_code": "ADEGBABS"
+    }
+},
+{
+    "model": "api.discount",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:24:36.133Z",
+        "updated": "2021-10-25T19:24:36.133Z",
+        "store": 3,
+        "discount_code": "adfad"
+    }
+},
+{
+    "model": "api.operator",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:27:12.035Z",
+        "updated": "2021-10-25T19:27:12.035Z",
+        "operator_user": 2,
+        "operator_group": "Avengers",
+        "phone_number": "0909722759734"
+    }
+},
+{
+    "model": "api.operator",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:27:31.738Z",
+        "updated": "2021-10-25T19:27:31.738Z",
+        "operator_user": 1,
+        "operator_group": "Legends",
+        "phone_number": "98236432"
+    }
+},
+{
+    "model": "api.operator",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:29:23.347Z",
+        "updated": "2021-10-25T19:29:23.347Z",
+        "operator_user": 2,
+        "operator_group": "Avatars",
+        "phone_number": "08012345234"
+    }
+},
+{
+    "model": "api.client",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:30:17.139Z",
+        "updated": "2021-10-25T21:22:03.780Z",
+        "client_user": 3,
+        "timezone": "US/Michigan",
+        "phone_number": "8124671147"
+    }
+},
+{
+    "model": "api.client",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:30:29.883Z",
+        "updated": "2021-10-25T21:22:15.062Z",
+        "client_user": 1,
+        "timezone": "US/Michigan",
+        "phone_number": "+2348124671147d"
+    }
+},
+{
+    "model": "api.client",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:30:44.337Z",
+        "updated": "2021-10-25T21:21:47.683Z",
+        "client_user": 3,
+        "timezone": "US/Michigan",
+        "phone_number": "+23481246711475"
+    }
+},
+{
+    "model": "api.conversation",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:31:16.054Z",
+        "updated": "2021-10-25T19:31:16.054Z",
+        "store": 1,
+        "client": 1,
+        "operator": 3,
+        "status": "RESOLVED"
+    }
+},
+{
+    "model": "api.conversation",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:31:29.265Z",
+        "updated": "2021-10-25T19:31:29.265Z",
+        "store": 2,
+        "client": 2,
+        "operator": 1,
+        "status": "RESOLVED"
+    }
+},
+{
+    "model": "api.conversation",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:31:44.223Z",
+        "updated": "2021-10-25T19:31:44.223Z",
+        "store": 3,
+        "client": 1,
+        "operator": 2,
+        "status": "RESOLVED"
+    }
+},
+{
+    "model": "api.conversation",
+    "pk": 4,
+    "fields": {
+        "created": "2021-10-26T14:40:14.131Z",
+        "updated": "2021-10-26T15:18:27.316Z",
+        "store": 2,
+        "client": 3,
+        "operator": 3,
+        "status": "RESOLVED"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 1,
+    "fields": {
+        "created": "2021-10-25T19:32:23.777Z",
+        "updated": "2021-10-26T12:13:58.806Z",
+        "conversation": 1,
+        "payload": "I want to send you a message now.",
+        "discount": 1,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 2,
+    "fields": {
+        "created": "2021-10-25T19:32:54.031Z",
+        "updated": "2021-10-26T12:13:58.776Z",
+        "conversation": 2,
+        "payload": "This is the second message.",
+        "discount": 2,
+        "user_id": 1,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 3,
+    "fields": {
+        "created": "2021-10-25T19:33:07.898Z",
+        "updated": "2021-10-26T12:13:58.716Z",
+        "conversation": 3,
+        "payload": "This is the third message",
+        "discount": 3,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 6,
+    "fields": {
+        "created": "2021-10-26T16:24:37.079Z",
+        "updated": "2021-10-26T17:26:00.490Z",
+        "conversation": 1,
+        "payload": "Testing to create a payload",
+        "discount": 1,
+        "user_id": 1,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 7,
+    "fields": {
+        "created": "2021-10-26T16:33:32.679Z",
+        "updated": "2021-10-26T17:26:00.444Z",
+        "conversation": 1,
+        "payload": "Testing to create a payload againn",
+        "discount": 1,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 8,
+    "fields": {
+        "created": "2021-10-26T16:34:25.605Z",
+        "updated": "2021-10-26T17:26:00.397Z",
+        "conversation": 1,
+        "payload": "Testing to create a payload again and again",
+        "discount": 1,
+        "user_id": 1,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 9,
+    "fields": {
+        "created": "2021-10-26T16:49:00.287Z",
+        "updated": "2021-10-26T17:26:00.352Z",
+        "conversation": 4,
+        "payload": "Testing to create a payload this time",
+        "discount": 2,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 10,
+    "fields": {
+        "created": "2021-10-26T16:50:21.369Z",
+        "updated": "2021-10-26T17:26:00.307Z",
+        "conversation": 2,
+        "payload": "dasdfadsfasdf",
+        "discount": 1,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 11,
+    "fields": {
+        "created": "2021-10-26T17:06:50.889Z",
+        "updated": "2021-10-26T17:26:00.260Z",
+        "conversation": 4,
+        "payload": "This is a payload and you are not seriousadsfasd",
+        "discount": 2,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.chat",
+    "pk": 13,
+    "fields": {
+        "created": "2021-10-26T17:25:31.660Z",
+        "updated": "2021-10-26T17:26:00.052Z",
+        "conversation": 1,
+        "payload": "This is the last test payload",
+        "discount": 1,
+        "user_id": 2,
+        "status": "SENT"
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 8,
+    "fields": {
+        "created": "2021-10-26T12:13:58.756Z",
+        "updated": "2021-10-26T12:13:58.756Z",
+        "chat": 3
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 9,
+    "fields": {
+        "created": "2021-10-26T12:13:58.790Z",
+        "updated": "2021-10-26T12:13:58.790Z",
+        "chat": 2
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 10,
+    "fields": {
+        "created": "2021-10-26T12:13:58.813Z",
+        "updated": "2021-10-26T12:13:58.813Z",
+        "chat": 1
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 11,
+    "fields": {
+        "created": "2021-10-26T17:26:00.130Z",
+        "updated": "2021-10-26T17:26:00.130Z",
+        "chat": 13
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 12,
+    "fields": {
+        "created": "2021-10-26T17:26:00.144Z",
+        "updated": "2021-10-26T17:26:00.144Z",
+        "chat": 13
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 13,
+    "fields": {
+        "created": "2021-10-26T17:26:00.268Z",
+        "updated": "2021-10-26T17:26:00.268Z",
+        "chat": 11
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 14,
+    "fields": {
+        "created": "2021-10-26T17:26:00.280Z",
+        "updated": "2021-10-26T17:26:00.280Z",
+        "chat": 11
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 15,
+    "fields": {
+        "created": "2021-10-26T17:26:00.314Z",
+        "updated": "2021-10-26T17:26:00.314Z",
+        "chat": 10
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 16,
+    "fields": {
+        "created": "2021-10-26T17:26:00.325Z",
+        "updated": "2021-10-26T17:26:00.325Z",
+        "chat": 10
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 17,
+    "fields": {
+        "created": "2021-10-26T17:26:00.360Z",
+        "updated": "2021-10-26T17:26:00.360Z",
+        "chat": 9
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 18,
+    "fields": {
+        "created": "2021-10-26T17:26:00.372Z",
+        "updated": "2021-10-26T17:26:00.372Z",
+        "chat": 9
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 19,
+    "fields": {
+        "created": "2021-10-26T17:26:00.406Z",
+        "updated": "2021-10-26T17:26:00.406Z",
+        "chat": 8
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 20,
+    "fields": {
+        "created": "2021-10-26T17:26:00.418Z",
+        "updated": "2021-10-26T17:26:00.418Z",
+        "chat": 8
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 21,
+    "fields": {
+        "created": "2021-10-26T17:26:00.452Z",
+        "updated": "2021-10-26T17:26:00.452Z",
+        "chat": 7
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 22,
+    "fields": {
+        "created": "2021-10-26T17:26:00.464Z",
+        "updated": "2021-10-26T17:26:00.464Z",
+        "chat": 7
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 23,
+    "fields": {
+        "created": "2021-10-26T17:26:00.498Z",
+        "updated": "2021-10-26T17:26:00.498Z",
+        "chat": 6
+    }
+},
+{
+    "model": "api.schedule",
+    "pk": 24,
+    "fields": {
+        "created": "2021-10-26T17:26:00.510Z",
+        "updated": "2021-10-26T17:26:00.510Z",
+        "chat": 6
+    }
+}
+]
