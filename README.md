@@ -4,11 +4,8 @@
 
 ## FEATURES
 * Uses Celery for real-time chat
-* No more than 90 messages are sent in an hour
+* No more than 90 messages are sent in an hour (Throttling)
 * Prevents messages from being sent from 20:00 -09:00 taking into account different timezones
-* Ordering and Pagination
-* Authentication and Permissions
-* Throttling
 * Tests
 
 ## DOCUMENTATION
