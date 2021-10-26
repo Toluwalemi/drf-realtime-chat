@@ -90,7 +90,7 @@ class Chat(Timestamp):
     conversation = models.ForeignKey(Conversation, related_name='conversation_chats', on_delete=models.CASCADE)
     payload = models.CharField(max_length=300, validators=[validate_payload])
     discount = models.ForeignKey(Discount, related_name='discount_chats', on_delete=models.CASCADE)
-    chat_user = models.ForeignKey('auth.User', related_name='user_chats', on_delete=models.CASCADE)
+    user_id = models.ForeignKey('auth.User', related_name='user_chats', on_delete=models.CASCADE)
     status = models.CharField(max_length=10, default='NEW')
 
     class Meta:
