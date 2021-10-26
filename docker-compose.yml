@@ -7,10 +7,6 @@ services:
     image: web
     volumes:
       - .:/code:rw
-    #    environment:
-    #      DATABASE_URL: postgres://postgres:postgres@localhost:5432/web
-    #      RABBITMQ_URL: amqp://user:password@localhost:56372
-    #      DJANGO_SETTINGS_MODULE: config.settings
     command: python manage.py runserver 0.0.0.0:8000
     restart: always
     ports:
@@ -27,7 +23,7 @@ services:
     container_name: db
     image: postgres:13-alpine
     ports:
-      - 5423
+      - "5423"
     volumes:
       - pgdata:/var/lib/postgresql/data/
     environment:
@@ -42,16 +38,6 @@ services:
     image: redis:alpine
     networks:
       - backend
-
-  #  rabbitmq:
-  #    image: "rabbitmq:3-management"
-  #    container_name: rabbitmq
-  #    volumes:
-  #      - rabbitmq-data:/var/lib/rabbitmq
-  #    networks:
-  #      - backend
-  #    ports:
-  #      - "56372:56372"
 
   celery:
     build: .
