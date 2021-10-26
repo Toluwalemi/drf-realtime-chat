@@ -59,5 +59,6 @@ created **.env** file
 ```
 * Or you can load the database with the data present in the fixtures folder:
 ```bash
-  docker-compose exec web python manage.py loaddata chat.json
+  docker-compose exec web python manage.py loaddata fixture.json
 ```
+* * Go to http://0.0.0.0:8000 to access the endpoints
