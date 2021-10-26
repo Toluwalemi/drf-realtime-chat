@@ -141,3 +141,13 @@ CELERY_BEAT_SCHEDULE = {
         "schedule": crontab(minute="*/1"),
     },
 }
+
+REST_FRAMEWORK = {
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle',
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'chats': '90/hour',
+    }
+}

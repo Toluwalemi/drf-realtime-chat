@@ -3,6 +3,7 @@ from rest_framework.generics import GenericAPIView, RetrieveUpdateDestroyAPIView
     ListAPIView
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
+from rest_framework.throttling import ScopedRateThrottle
 
 from api.models import Conversation, Chat, Schedule
 from api.serializers import ChatConversationSerializer, ConversationSerializer, StoreSerializer, ScheduleSerializer
@@ -21,6 +22,8 @@ class ConversationDetail(RetrieveUpdateDestroyAPIView):
 
 
 class ChatCreate(CreateAPIView):
+    throttle_scope = 'chats'
+    throttle_classes = (ScopedRateThrottle,)
     queryset = Chat.objects.all()
     serializer_class = ChatConversationSerializer
     name = 'chat-create'
@@ -33,6 +36,8 @@ class ChatList(ListAPIView):
 
 
 class ChatDetail(RetrieveUpdateDestroyAPIView):
+    throttle_scope = 'chats'
+    throttle_classes = (ScopedRateThrottle,)
     queryset = Chat.objects.all()
     serializer_class = ChatConversationSerializer
     name = 'chat-detail'
