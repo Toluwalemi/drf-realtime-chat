@@ -66,6 +66,19 @@ services:
     networks:
       - backend
 
+  celery-beat:
+    build: .
+    container_name: celery-beat
+    command: celery -A config beat -l info
+    volumes:
+      - .:/code
+    env_file:
+      - .env
+    depends_on:
+      - redis
+    networks:
+      - backend
+
 volumes:
   pgdata:
   rabbitmq-data:
