@@ -1,8 +1,7 @@
 import datetime
-from django.http import JsonResponse
+
 from celery import shared_task
 from celery.utils.log import get_task_logger
-from rest_framework.response import Response
 
 from api.helpers import get_current_time_in_timezone
 from api.models import Chat, Schedule
