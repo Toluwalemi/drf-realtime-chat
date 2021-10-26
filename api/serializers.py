@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from api.models import Store, Discount, Operator, Client, Conversation, Chat
+from api.models import Store, Discount, Operator, Client, Conversation, Chat, Schedule
 
 
 class StoreSerializer(serializers.ModelSerializer):
@@ -78,3 +78,11 @@ class ChatConversationSerializer(serializers.ModelSerializer):
         model = Chat
         fields = ('id', 'payload', 'user_id', 'discount_id', 'conversation_id', 'created', 'status',)
         read_only_fields = ('status',)
+
+
+class ScheduleSerializer(serializers.ModelSerializer):
+    chat = ChatConversationSerializer()
+
+    class Meta:
+        model = Schedule
+        fields = ('chat',)
