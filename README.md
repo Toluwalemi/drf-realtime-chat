@@ -35,30 +35,25 @@
 
 ## General Usage
 
-* Clone the repository
-* Create a virtual environment in the folder. (If you are on linux, use the command below):
+* Kindly run the project with Docker. 
+* Clone the project.
+* Create a **.env** in the project and copy the contents inside **.env-sample** into the newly
+created **.env** file
+* Run the docker-compose.yml file:
 ```bash
- python3.9 -m venv venv
+ docker-compose up --build
 ```
-* Activate the virtual environment (If you are on linux, use the command below):
+* Run Migrations:
 ```bash
- source venv/bin/activate
+ docker-compose exec web python manage.py makemigrations api
+ docker-compose exec web python manage.py migrate
 ```
-* Install the requirements:
+* App will be available at: http://0.0.0.0:8000
+* You may create a superuser account to add data via the django-admin:
 ```bash
- pip install -r requirements.txt
+  docker-compose exec web python manage.py createsuperuser
 ```
-* Make migrations:
+* Or you can load the database with the data present in the fixtures folder:
 ```bash
- python manage.py makemigrations api
- python manage.py migrate
+  docker-compose exec web python manage.py loaddata chat.json
 ```
-* Run the command below to run the tests
-```
- pytest
-```
-* Run the DJANGO's server and access the endpoints
-```
- python manage.py runserver
-```
-
