@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework.reverse import reverse
 
 from api.models import Conversation, Chat, Schedule
-from api.serializers import ChatConversationSerializer, ConversationSerializer, StoreSerializer
+from api.serializers import ChatConversationSerializer, ConversationSerializer, StoreSerializer, ScheduleSerializer
 
 
 class ConversationList(ListCreateAPIView):
@@ -28,7 +28,7 @@ class ChatCreate(CreateAPIView):
 
 class ChatList(ListAPIView):
     queryset = Schedule.objects.all()
-    serializer_class = ChatConversationSerializer
+    serializer_class = ScheduleSerializer
     name = 'chat-list'
 
 
@@ -44,7 +44,7 @@ class ApiRoot(GenericAPIView):
 
     def get(self, request, *args, **kwargs):
         return Response({
-            'chats': reverse(ChatCreate.name, request=request),
+            'chats': reverse(ChatList.name, request=request),
             'create-chat': reverse(ChatCreate.name, request=request),
             'conversations': reverse(ConversationList.name, request=request),
         })
