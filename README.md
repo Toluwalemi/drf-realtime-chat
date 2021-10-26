@@ -26,7 +26,7 @@
 |/conversations/:id/        |    PATCH     |     UPDATE  | update one or more fields of an existing conversation
 |/conversations/            |    DELETE    |     DELETE  | delete a conversation
 |/chats/                    |    GET       |     READ    | get all chats
-|/chats/                    |    POST      |     CREATE  | add a chat
+|/chat/                     |    POST      |     CREATE  | add a chat
 |/chats/:id/                |    GET       |     READ    | get a single chat
 |/chats/:id/                |    PUT       |     UPDATE  | update an existing chat
 |/chats/:id/                |    PATCH     |     UPDATE  | update one or more fields of an existing chat
