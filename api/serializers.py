@@ -70,14 +70,13 @@ class ChatConversationSerializer(serializers.ModelSerializer):
     conversation_id = serializers.SlugRelatedField(queryset=Conversation.objects.all(), slug_field='pk',
                                                    source='conversation')
 
-    user_id = serializers.ReadOnlyField(source='chat_user.pk')
     discount_id = serializers.SlugRelatedField(queryset=Discount.objects.all(), slug_field='discount_code',
                                                write_only=True, source='discount')
 
     class Meta:
         model = Chat
         fields = ('id', 'payload', 'user_id', 'discount_id', 'conversation_id', 'created', 'status',)
-        read_only_fields = ('status',)
+        read_only_fields = ('status', 'id',)
 
 
 class ScheduleSerializer(serializers.ModelSerializer):
