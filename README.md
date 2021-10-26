@@ -49,6 +49,10 @@ created **.env** file
  docker-compose exec web python manage.py migrate
 ```
 * App will be available at: http://0.0.0.0:8000
+* Run the tests with this command:
+```bash
+ docker-compose exec web pytest
+```
 * You may create a superuser account to add data via the django-admin:
 ```bash
   docker-compose exec web python manage.py createsuperuser
